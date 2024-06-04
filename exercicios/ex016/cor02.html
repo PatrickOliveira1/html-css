@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Gradiente em CSS</title>
+    <style>
+        *{ /* Configuração global das CSS */
+            height: 50%;
+        }
+
+        body{
+            background-image: radial-gradient(#20F426, #3CCA41, #4AA04D, #4A754B, #3C4B3C);
+            color: white;
+            background-attachment: fixed;
+        }
+
+        .botao  {
+    position:static;
+    top:20px;
+    left:50px;
+    margin:0px;
+    padding:0px;
+            }
+    
+    .botao a, .botao a:visited {  
+    font: bold 12px/24px arial, helvetica, sans-aerif;	
+    padding:0px;
+    text-decoration: none;
+    text-align:center;	
+    color:#fff;
+    background: #666 url('imagens/botao_link.gif') no-repeat 
+    center center;	
+    width:120px;  
+    height:24px;	
+    display:block;	
+        }
+    
+    .botao a:hover { 
+    background: #666 url('imagens/botao_hover.gif') no-repeat 
+    center center;
+    color:#ff0000;
+    text-shadow: #ffffff;
+                   }
+
+    .botao2  {
+    position:absolute;
+    top:161px;
+    left:600px;
+    margin:0px;
+    padding:0px;
+            }
+    
+    .botao2 a, .botao2 a:visited {  
+    font: bold 12px/24px arial, helvetica, sans-aerif;	
+    padding:0px;
+    text-decoration: none;
+    text-align:center;	
+    color:#fff;
+    background: #666 url('imagens/botao_link.gif') no-repeat 
+    center center;	
+    width:120px;  
+    height:24px;	
+    display:block;	
+        }
+    
+    .botao2 a:hover { 
+    background: #666 url('imagens/botao_hover.gif') no-repeat 
+    center center;
+    color:#ff0000;
+    text-shadow: #ffffff;
+                   }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradientes</h1>
+            <p class="botao"><a href="cor01.html">página anterior</a></p>
+            <p class="botao2"><a href="cor03.html">próxima página</a></p>
+</body>
+</html>

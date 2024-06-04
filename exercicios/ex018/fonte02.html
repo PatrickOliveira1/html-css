@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'LasAmericas';
+            src: url('_fonts/LasAmericas.otf') format(opentype);
+
+            /* 
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advenced Typography)
+            */
+        }
+        @font-face {
+            font-family: 'Nexa';
+            src: url(_fonts/Nexa-ExtraLight.ttf) format(truetype);
+        }
+        body {
+            font-family: Nexa, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-family: 'LasAmericas', Times, serif;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil atque possimus esse provident at fugit alias recusandae commodi numquam quo rem incidunt accusantium, maxime quidem fugiat vero deleniti! Accusantium.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, doloremque in nulla iste recusandae explicabo qui maiores eveniet sit. Deleniti aliquam quos laborum blanditiis maiores ab asperiores dignissimos odit iusto.
+    </p>
+
+    <footer>
+        <a href="fonte01.html">Voltar</a>
+    </footer>
+</body>
+</html>
