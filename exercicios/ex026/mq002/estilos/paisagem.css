@@ -1,1 +1,14 @@
 @charset "UTF-8";
+
+body {
+    background: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: 233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
